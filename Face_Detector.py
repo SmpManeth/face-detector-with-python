@@ -11,7 +11,7 @@ grayscale_image = cv2.cvtColor(img , cv2.COLOR_BGR2GRAY)
 
 
 #show the Image
-cv2.imshow('Face Detector', grayscale_image)
+cv2.imshow('Color Changer', grayscale_image)
 cv2.waitKey()
 
 print("Code Completed") 
