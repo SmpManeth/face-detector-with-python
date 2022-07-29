@@ -28,4 +28,5 @@ while True:
     cv2.waitKey(1)
     if cv2.waitKey(1) == 81 or cv2.waitKey(1) == 113:
       break
+  
 webcam.release()
